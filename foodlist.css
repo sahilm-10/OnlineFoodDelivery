@@ -1,0 +1,76 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  height: 100%;
+  background: black;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.back{
+  text-align: left;
+background-color: #FFA45B;
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+.back:hover{
+  text-decoration: none;
+}
+
+.food-name{
+  color: #FFA45B;
+  font-size: 2.5rem;
+  font-weight: bold;
+text-align: center;
+max-width: 100%;
+}
+
+.food-info{
+  padding: 40px 25px;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+
+}
+
+.card-heading{
+  font-family: 'Ubuntu';
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: black;
+}
+
+.card-heading:hover {
+  color: #FFA45B;
+  text-decoration: none
+
+}
+
+.card img {
+  max-height: 15rem;
+}
+
+.btn-cart{
+  margin: 0 1rem 0 0;
+}
+
+.btn-cart:hover {
+  background-color: #FFA45B;
+  color: black;
+}
+
+.btn-food{
+  background-color: black;
+  color: #FFA45B;
+}

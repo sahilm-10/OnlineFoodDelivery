@@ -1,0 +1,27 @@
+body {
+  font-family: 'Montserrat';
+  text-align: left;
+  height: 100%;
+  background: black;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+  padding: 1rem 1rem 1rem 0;
+}
+
+/* .food-name{
+  font-family: 'Ubuntu';
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #FFA45B;
+} */
+
+.btn-food{
+  background-color: black;
+  color: #FFA45B;
+}

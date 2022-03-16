@@ -1,0 +1,23 @@
+body {
+  font-family: 'Montserrat';
+  /* text-align: center; */
+  height: 100%;
+  background: black;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.cart-name{
+  color: #FFA45B;
+  font-size: 2.5rem;
+  font-weight: bold;
+text-align: center;
+max-width: 100%;
+}
