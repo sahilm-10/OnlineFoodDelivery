@@ -26,5 +26,5 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/homepage.php"
+  "start_url": "https://onlinefooddeliverynew.herokuapp.com/homepage.php"
 }
