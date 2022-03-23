@@ -1,6 +1,6 @@
 {
-  "short_name": "BetaPage",
-  "name": "BetaPage",
+  "short_name": "MunchSquare",
+  "name": "OnlinefoodDelivery",
   "theme_color": "#4A90E2",
   "background_color": "#F7F8F9",
   "display": "standalone",
@@ -26,5 +26,5 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "/?utm_source=launcher"
+  "start_url": "/homepage.php"
 }
