@@ -2,7 +2,7 @@ self.addEventListener("fetch", event => {
     console.log("You fetched " + event.url);
 });
 
-const assets = [
+const ASSETS = [
     "/style.css",
     "/index.css",
     "/index.html",
