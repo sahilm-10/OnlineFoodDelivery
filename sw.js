@@ -19,7 +19,7 @@ self.addEventListener("install", event => {
         caches
             .open(cache_name)
             .then(cache => {
-                return cache.addAll(assets);
+                return cache.addAll(ASSETS);
             })
             .catch(err => console.log(err))
     );
