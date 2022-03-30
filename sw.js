@@ -1,7 +1,7 @@
 self.addEventListener('install', function(event) {
-    // Perform some task
+    console.log("Installed");
 });
 
 self.addEventListener('activate', function(event) {
-  // Perform some task
+   console.log("Activated");
 });
