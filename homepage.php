@@ -3,7 +3,7 @@
 <html>
 
 <head>
-  <script src="app.js"></script>
+ 
   <link rel="manifest" href="/manifest.json">
   <meta charset="utf-8">
   <title>Munch Square</title>
@@ -422,4 +422,5 @@
     });
  }
 </script>
+   <script src="app.js"></script>
 </html>
