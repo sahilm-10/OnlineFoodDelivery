@@ -406,6 +406,8 @@
 
     </div>
   </footer>
+  <script defer data-domain="1bf7-103-198-167-41.ngrok.io/onlinefooddelivery/homepage.php" src="https://plausible.io/js/plausible.js"></script>
+<script src = "abc.js"></script>
 
 
 </body>
