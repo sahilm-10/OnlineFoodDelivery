@@ -3,6 +3,8 @@
 <html>
 
 <head>
+ 
+  <link rel="manifest" href="/manifest.json">
   <meta charset="utf-8">
   <title>Munch Square</title>
 
@@ -77,7 +79,7 @@
           <!-- <h1 class="big-heading">Life's a bunch...</h1>
           <h1 class="big-heading">Enjoy the MUNCH...</h1> -->
           <p class="title-decs">We cook and delivery the tastiest healthy food right away to your destignated location.</p>
-          <a href="restaurants.php"class="btn btn-outline-light btn-lg download-button"> Get Started </a>
+          <a href="/restaurants.php"class="btn btn-outline-light btn-lg download-button"> Get Started </a>
         </div>
         <div class="col-lg-6">
           <img class="title-img"  src="images/title-chef 1.png" alt="chef">
@@ -411,5 +413,16 @@
 
 
 </body>
-
+<script>
+ if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('sw.js')
+      .then(function(reg){
+        console.log("Yes, it did.");
+     }).catch(function(err) {
+        console.log("No it didn't. This happened:", err)
+    });
+ }
+</script>
+   <script src="app.js"></script>
 </html>
